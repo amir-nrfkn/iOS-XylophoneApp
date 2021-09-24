@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func keyPressed(_ sender: UIButton) {
-        UIView.animate(withDuration: 0.1) {
+        UIView.animate(withDuration: 0) {
             sender.alpha = 0.5
         }
 
